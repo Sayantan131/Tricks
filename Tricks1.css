@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%; 
+    width: 100%;
+    background-color: aqua;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tricks1{
+    height: 70vh;
+    width: 50vw;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tricks1 img{
+        height: 300px;
+        /* filter: blur(10px); */
+        filter: contrast(200%);
+}
