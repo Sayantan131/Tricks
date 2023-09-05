@@ -15,17 +15,21 @@ html,body{
 
 
 #box{
-    height: 60%;
-    width: 40%;
+    height: 580px;
+    width: 460px;
     background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 #box img{
-    height: 80%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
     transition: all ease 1s;
+    
 
 }
 
